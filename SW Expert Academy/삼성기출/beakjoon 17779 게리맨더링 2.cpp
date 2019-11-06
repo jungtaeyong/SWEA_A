@@ -9,7 +9,6 @@ typedef struct POINT{
 	int x,y;
 }POINT;
 POINT point[4];
-
 void cal(){
 	int sum[5]={0,0,0,0,0};
 	// 따로따로 minnum ,maxnum 하지말고 이렇게 배열로 계산하면 더 간단하다. 
@@ -29,8 +28,7 @@ void labeling(){
 			section[i][j]=5;
 		}
 	}
-	
-	register int subarea=0;
+	int subarea=0;
 	for(int i=0;i<point[1].x;i++){
 		// 0번 꼭짓점의 x좌표보다 크거나 같아지는 순간, 표시해야 하는 열의 갯수가 한칸씩 줄어든다. 
 		if(i>=point[0].x){
@@ -68,7 +66,6 @@ void labeling(){
 		}
 	}
 	cal();
-	
 }
 
 bool check(){
