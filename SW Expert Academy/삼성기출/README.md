@@ -23,10 +23,3 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 - ### [BOJ 17837 새로운 게임2](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%17837%새로운%게임2.md)
 
 - ### [BOJ 17140 이차원 배열과 연산](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%17140%이차원%배열과 연산.md)
-
-
-
-
-
-
-
