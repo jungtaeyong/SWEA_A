@@ -6,23 +6,23 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 
 - ### [BOJ 3190 뱀](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%3190%뱀.md)
 
-- ### [BOJ 13458 시험감독](https://github.com/jungtaeyong/SWEA_A/blob/master/SW Expert Academy/삼성기출/beakjoon%13458%시험%감독.md)
+- ### [BOJ 13458 시험감독](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%13458%시험%감독.md)
 
-- ### [BOJ 13460 구슬탈출2](https://github.com/jungtaeyong/SWEA_A/blob/master/SW Expert Academy/삼성기출/beakjoon 13460 구슬탈출2.md)
+- ### [BOJ 13460 구슬탈출2](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%13460%구슬탈출2.md)
 
-- ### [BOJ 16235 나무 재테크](https://github.com/jungtaeyong/SWEA_A/blob/master/SW Expert Academy/삼성기출/beakjoon 16235 나무 재테크 .md)
+- ### [BOJ 16235 나무 재테크](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%16235%나무%재테크.md)
 
-- ### [BOJ 16236 아기상어](https://github.com/jungtaeyong/SWEA_A/blob/master/SW Expert Academy/삼성기출/beakjoon 16236 아기상어.md)
+- ### [BOJ 16236 아기상어](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%16236%아기상어.md)
 
-- ### [BOJ 17142 연구소3](https://github.com/jungtaeyong/SWEA_A/blob/master/SW Expert Academy/삼성기출/beakjoon 17142 연구소3.md)
+- ### [BOJ 17142 연구소3](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%17142%연구소3.md)
 
-- ### [BOJ 17144 미세먼지 안녕!](https://github.com/jungtaeyong/SWEA_A/blob/master/SW Expert Academy/삼성기출/beakjoon 17144 미세먼지 안녕!.md)
+- ### [BOJ 17144 미세먼지 안녕!](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon 17144 미세먼지 안녕!.md)
 
-- ### [BOJ 17779 게리맨더링 2](https://github.com/jungtaeyong/SWEA_A/blob/master/SW Expert Academy/삼성기출/beakjoon 17779 게리맨더링 2.md)
+- ### [BOJ 17779 게리맨더링 2](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%17779%게리맨더링%2.md)
 
-- ### [BOJ 17837 새로운 게임2](https://github.com/jungtaeyong/SWEA_A/blob/master/SW Expert Academy/삼성기출/beakjoon 17837 새로운 게임2.md)
+- ### [BOJ 17837 새로운 게임2](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%17837%새로운%게임2.md)
 
-- ### [BOJ 17140 이차원 배열과 연산](https://github.com/jungtaeyong/SWEA_A/blob/master/SW Expert Academy/삼성기출/beakjoon 17140 이차원 배열과 연산.md)
+- ### [BOJ 17140 이차원 배열과 연산](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%Expert%Academy/삼성기출/beakjoon%17140%이차원%배열과 연산.md)
 
 
 
