@@ -26,5 +26,9 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 
 - ### [BOJ 17143 낚시왕](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2017143%20낚시왕.md)
 
+- ### [BOJ 17822 원판돌리기](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2017822%20원판돌리기.md)
+
+  
+  
   
 
