@@ -32,4 +32,7 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 
 - ### [BOJ 15685 드래곤커브](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2015685%20드래곤커브.md)
 
+- ### [BOJ 12100 2048](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2012100%202048.md)
+
   
+
