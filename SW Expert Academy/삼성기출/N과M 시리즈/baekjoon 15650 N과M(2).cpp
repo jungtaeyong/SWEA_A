@@ -8,9 +8,9 @@ void dfs(int start,int depth){
 		}
 		cout<<"\n";
 	}
-	for(int i=1;i<=n;i++){
+	for(int i=start;i<=n;i++){
 		arr[depth]=i;
-		dfs(0,depth+1);
+		dfs(i+1,depth+1);
 	}
 }
 int main(){
