@@ -8,5 +8,7 @@
 
 - ### [15651 N과M(3)](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/N과M%20시리즈/baekjoon%2015651%20N과M(3).md)
 
+- ### [15652 N과M(4)](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/N과M%20시리즈/baekjoon%2015652%20N과M(4).md)
+
   
 
