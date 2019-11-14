@@ -73,9 +73,6 @@ void dfs(int depth){
 		}
 	}
 }
-void solve(){
-	dfs(0);
-}
 int main(){
 	cin>>n;
 	for(int i=0;i<n;i++){
@@ -83,6 +80,6 @@ int main(){
 			cin>>arr[i][j];
 		}
 	}
-	solve();
+	dfs(0);
 	cout<<ans;
 }
