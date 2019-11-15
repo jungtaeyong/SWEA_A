@@ -18,12 +18,12 @@ void dfs(int depth){
 		check();
 		return;
 	}
-	//0:left 1:right 2:up 3:down
+	//0:left 1:right 2:up 3:down 
 	for(int i=0;i<4;i++){
 		int temp[21][21];
-		for(int i=0;i<n;i++){
-			for(int j=0;j<n;j++){
-				temp[i][j]=arr[i][j];
+		for(int j=0;j<n;j++){
+			for(int k=0;k<n;k++){
+				temp[j][k]=arr[j][k];
 			}
 		}
 		if(i==2||i==3){

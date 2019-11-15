@@ -34,5 +34,15 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 
 - ### [BOJ 12100 2048](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2012100%202048.md)
 
+
+
+
+
+# A형 기출
+
+
+
+- ### [BOJ 17070 파이프 옮기기1](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2017070%20파이프%20옮기기1.md)
+
   
 
