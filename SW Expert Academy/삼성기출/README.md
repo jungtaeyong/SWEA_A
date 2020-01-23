@@ -34,6 +34,10 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 
 - ### [BOJ 12100 2048](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2012100%202048.md)
 
+- ### [BOJ 14503 로봇 청소기](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2014503%20로봇%20청소기.md)
+
+
+
 
 
 
