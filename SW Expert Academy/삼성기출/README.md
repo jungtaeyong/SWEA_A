@@ -36,6 +36,7 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 
 - ### [BOJ 14503 로봇 청소기](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2014503%20로봇%20청소기.md)
 
+- ### [BOJ 14891 톱니바퀴](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2014891%20톱니바퀴.cpp)
 
 
 
