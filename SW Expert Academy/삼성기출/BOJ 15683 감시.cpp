@@ -18,19 +18,6 @@ vector<int> step[5] = {
   {U|R|D|L}
 };
 
-void observe(int x, int y, int flag) {
-  for(int k=0; k<4; k++) {
-    if(flag & (1<<k)) {
-      int dx = dir[k][0], dy = dir[k][1];
-      int nx = x + dx, ny = y + dy;
-      while(nx >= 0 && nx < N && ny >= 0 && ny < M && office[nx][ny] != 6) {
-        if(office[nx][ny] == 0) office[nx][ny] = -1;
-        nx += dx, ny += dy;
-      }
-    }
-  }
-}
-
 void watch(int idx) {
   if(idx == cctv.size()) {
     int blank = 0;
@@ -50,7 +37,16 @@ void watch(int idx) {
     }
   }
   for(int t=0; t<step[type].size(); t++) {
-    observe(cx, cy, step[type][t]);
+    for(int k=0; k<4; k++) {
+      if(step[type][t] & (1<<k)) {
+        int dx = dir[k][0], dy = dir[k][1];
+        int nx = cx + dx, ny = cy + dy;
+        while(nx >= 0 && nx < N && ny >= 0 && ny < M && office[nx][ny] != 6) {
+          if(office[nx][ny] == 0) office[nx][ny] = -1;
+          nx += dx, ny += dy;
+        }
+      }
+    }
     watch(idx+1);
     for(int i=0; i<N; i++) {
       for(int j=0; j<M; j++) {
