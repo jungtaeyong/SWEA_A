@@ -101,3 +101,97 @@
   ```
 
   
+
+- 2020-02-01 2번째 풀이
+
+  ```c++
+  #include <iostream>
+  #include <queue>
+  #include <stdlib.h>
+  using namespace std;
+  
+  int n,arr[50][50],R,L,ans;
+  struct DIR{
+  	int r,c;
+  };
+  DIR dir[4]={{0,1},{1,0},{0,-1},{-1,0}};
+  bool chk[50][50];
+  
+  bool check(){
+  	for(int r=0;r<n;r++){
+  		for(int c=0;c<n;c++){
+  			for(int k=0;k<2;k++){
+  				int nr=r+dir[k].r;
+  				int nc=c+dir[k].c;
+  				if(nr<n&&nc<n){
+  					int num=abs(arr[r][c]-arr[nr][nc]);
+  					if(L<=num&&num<=R){
+  						return false;
+  					}
+  				}
+  			}
+  		}
+  	}
+  	return true;
+  }
+  void bfs(int row, int col){
+  	queue<pair<int, int> > q,move;
+  	int cnt=1;
+  	int sum=arr[row][col];
+  	chk[row][col]=true;
+  	q.push({row,col});
+  	move.push({row,col});
+  	while(!q.empty()){
+  		int r=q.front().first;
+  		int c=q.front().second;
+  		q.pop();
+  		for(int i=0;i<4;i++){
+  			int nr=dir[i].r+r;
+  			int nc=dir[i].c+c;
+  			if(0<=nr&&nr<n&&0<=nc&&nc<n&&!chk[nr][nc]){
+  				int num=abs(arr[r][c]-arr[nr][nc]);
+  				if(L<=num&&num<=R){
+  					cnt++;
+  					sum+=arr[nr][nc];
+  					q.push({nr,nc});
+  					move.push({nr,nc});
+  					chk[nr][nc]=true;
+  				}
+  			}	
+  		}
+  	}
+  	int movenum=sum/cnt;
+  	while(!move.empty()){
+  		int r=move.front().first;
+  		int c=move.front().second;
+  		move.pop();
+  		arr[r][c]=movenum;
+  	}
+  }
+  int main(){
+  	cin>>n>>L>>R;
+  	for(int i=0;i<n;i++){
+  		for(int j=0;j<n;j++){
+  			cin>>arr[i][j];
+  		}
+  	}
+  	while(!check()){
+  		for(int i=0;i<n;i++){
+  			for(int j=0;j<n;j++){
+  				chk[i][j]=false;
+  			}
+  		}
+  		for(int i=0;i<n;i++){
+  			for(int j=0;j<n;j++){
+  				if(!chk[i][j]){
+  					bfs(i,j);
+  				}
+  			}
+  		}
+  		ans++;
+  	}
+  	cout<<ans;
+  }
+  ```
+
+  
