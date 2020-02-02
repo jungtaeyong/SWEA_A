@@ -40,6 +40,8 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 
 - ### [BOJ 15683 감시](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2015683%20감시.cpp)
 
+- ### [BOJ 15686 치킨 배달](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2015686%20치킨%20배달.md)
+
 
 
 
