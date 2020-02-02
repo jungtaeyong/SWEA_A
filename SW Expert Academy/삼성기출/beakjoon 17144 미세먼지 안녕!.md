@@ -107,3 +107,93 @@
   }
   ```
 
+- 2차 문제풀이(2020-02-03)
+
+- ```c++
+  #include <iostream>
+  using namespace std;
+  int n,m,t,arr[50][50],map[50][50];
+  int ar,ac,ans;
+  
+  struct DIR{
+  	int r,c;
+  };
+  DIR dir[4]={{1,0},{-1,0},{0,1},{0,-1}};
+  void solve(){
+  	for(int i=0;i<n;i++){
+  		for(int j=0;j<m;j++){
+  			map[i][j]=0;
+  		}
+  	}
+  	for(int i=0;i<n;i++){
+  		for(int j=0;j<m;j++){
+  			if(0<arr[i][j]){
+  				int cnt=0;
+  				for(int k=0;k<4;k++){
+  					int nr=dir[k].r+i;
+  					int nc=dir[k].c+j;
+  					if(0<=nr&&nr<n&&0<=nc&&nc<m&&!(nr==ar&&nc==0)&&!(nr==ar-1&&nc==0)){
+  						cnt++;
+  						map[nr][nc]+=arr[i][j]/5;
+  					}
+  				}
+  				map[i][j]+=arr[i][j]-(arr[i][j]/5)*cnt;
+  			}
+  		}
+  	}
+  	for(int i=0;i<n;i++){
+  		for(int j=0;j<m;j++){
+  			arr[i][j]=map[i][j];
+  		}
+  	}
+  	int upr=ar-1,upc=ac;
+  	int downr=ar,downc=ac;
+  	
+  	for(int r=upr-1;r>0;r--)
+  		arr[r][0]=arr[r-1][0];
+  	for(int c=0;c<m-1;c++)
+  		arr[0][c]=arr[0][c+1];
+  	for(int r=0;r<upr;r++)
+  		arr[r][m-1]=arr[r+1][m-1];
+  	for(int c=m-1;c>1;c--)
+  		arr[upr][c]=arr[upr][c-1];
+  	
+  	arr[upr][1]=0;
+  	
+  	
+  	for(int r=downr+1;r<n-1;r++)
+  		arr[r][0]=arr[r+1][0];
+  	for(int c=0;c<m-1;c++)
+  		arr[n-1][c]=arr[n-1][c+1];
+  	for(int r=n-1;r>downr;r--)
+  		arr[r][m-1]=arr[r-1][m-1];
+  	for(int c=m-1;c>0;c--)
+  		arr[downr][c]=arr[downr][c-1];
+  	
+  	arr[downr][1]=0;
+  	t--;
+  }
+  int main(){
+  	cin>>n>>m>>t;
+  	for(int i=0;i<n;i++){
+  		for(int j=0;j<m;j++){
+  			cin>>arr[i][j];
+  			if(arr[i][j]==-1){
+  				ar=i,ac=j;
+  			}
+  		}
+  	}
+  	while(t){
+  		solve();
+  	}
+  	for(int i=0;i<n;i++){
+  		for(int j=0;j<m;j++){
+  			if((i==ar&&j==0)||(i==ar-1&&j==0))continue;
+  			ans+=arr[i][j];
+  		}
+  	}
+  	cout<<ans; 
+  } 
+  ```
+
+  
