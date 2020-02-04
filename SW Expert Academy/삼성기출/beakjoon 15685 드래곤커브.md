@@ -72,5 +72,60 @@
 
 - #### 참고 출처: [마이구미의 HelloWorld](https://mygumi.tistory.com/336)
 
+- 2번째 풀이 (2020-02-04)
+
+  ```c+
+  #include <iostream>
+  using namespace std;
+  int n,ans,gener[4][1024];
+  bool arr[101][101];
+  
+  int main(){
+  	gener[0][0]=0;
+  	gener[1][0]=1;
+  	gener[2][0]=2;
+  	gener[3][0]=3;
+  	for(int k=0;k<4;k++){
+  		for(int i=1;i<=10;i++){
+  			int s=1<<(i-1);
+  			int e=1<<(i);
+  			int num=1;
+  			for(int j=s;j<e;j++){
+  				gener[k][j]=(gener[k][j-num]+1==4)? 0 : gener[k][j-num]+1;
+  				num+=2;
+  			}
+  		}
+  	}
+  	cin>>n;
+  	for(int i=0;i<n;i++){
+  		int x,y,d,g;
+  		cin>>x>>y>>d>>g;
+  		int end=1<<g;
+  		arr[y][x]=true;
+  		for(int j=0;j<end;j++){
+  			if(gener[d][j]==0){
+  				x++;
+  			}else if(gener[d][j]==1){
+  				y--;
+  			}else if(gener[d][j]==2){
+  				x--;
+  			}else if(gener[d][j]==3){
+  				y++;
+  			}
+  			arr[y][x]=true;
+  		}
+  	}
+  	for(int i=0;i<100;i++){
+  		for(int j=0;j<100;j++){
+  			if(arr[i][j]&&arr[i+1][j]&&arr[i][j+1]&&arr[i+1][j+1]){
+  				ans++;
+  			}
+  		}
+  	}
+  	
+  	cout<<ans;
+  }
+  ```
+
   
 
