@@ -44,6 +44,8 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 
 - ### [BOJ 5373 큐빙](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%205373%20큐빙.cpp)
 
+- ### [BOJ 17825 주사위 윷놀이](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2017825%20주사위%20윷놀이.cpp)
+
 
 
 
