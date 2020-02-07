@@ -46,6 +46,10 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 
 - ### [BOJ 17825 주사위 윷놀이](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2017825%20주사위%20윷놀이.cpp)
 
+- ### [BOJ 14889 스타트와 링크](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2014889%20스타트와%20링크.cpp)
+
+
+
 
 
 
