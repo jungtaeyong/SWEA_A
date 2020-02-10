@@ -4,8 +4,6 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 
 
 
-- ### [BOJ 3190 뱀](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%203190%20뱀.md)
-
 - ### [BOJ 13458 시험감독](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2013458%20시험%20감독.md)
 
 - ### [BOJ 13460 구슬탈출2](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2013460%20구슬탈출2.md) 
@@ -47,6 +45,8 @@ README에 모든 문제를 정리하다 보니 필요이상으로 문서가 길�
 - ### [BOJ 17825 주사위 윷놀이](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2017825%20주사위%20윷놀이.cpp)
 
 - ### [BOJ 14889 스타트와 링크](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2014889%20스타트와%20링크.cpp)
+
+- ### [BOJ 14502 연구소](https://github.com/jungtaeyong/SWEA_A/blob/master/SW%20Expert%20Academy/삼성기출/beakjoon%2014502%20연구소.cpp)
 
 
 
